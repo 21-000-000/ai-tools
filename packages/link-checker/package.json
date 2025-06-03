@@ -1,0 +1,18 @@
+{
+  "name": "@21-000-000/link-checker",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir=dist",
+    "dev": "bun --watch src/index.ts",
+    "lint": "biome lint .",
+    "format": "biome format . --write",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@21-000-000/shared-utils": "workspace:*",
+    "node-fetch": "^3.3.0"
+  }
+}

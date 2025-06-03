@@ -1,0 +1,22 @@
+{
+  "name": "@21-000-000/ai-tools",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "publish-packages": "turbo run publish"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "latest",
+    "turbo": "latest"
+  },
+  "packageManager": "bun@1.0.0"
+}
