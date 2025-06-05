@@ -22,6 +22,6 @@
 - Používat VPN nebo Tor pro anonymitu
 
 ## Hlášení bezpečnostních problémů
-- Přes PGP šifrovaný email
+<!-- - Přes PGP šifrovaný email -->
 - Přes privátní GitHub issue
 - Přes anonymní formulář
